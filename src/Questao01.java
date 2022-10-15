@@ -1,6 +1,6 @@
     import java.util.Scanner;
 
-public class Questao00 {
+public class Questao01 {
     public static void main(String[] args) throws Exception {
         Scanner ler = new Scanner(System.in);
         
