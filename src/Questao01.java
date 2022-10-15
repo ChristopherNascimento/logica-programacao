@@ -12,6 +12,8 @@ public class Questao01 {
 
             float n2 = ler.nextInt();
 
+            ler.close();
+
     float media = (n1 + n2) / 2;
         
         System.out.println("Sua média foi de "+(media));

@@ -7,6 +7,8 @@ public class Questao02 {
         System.out.println("Escreva um número ");
 
             int num1 = ler.nextInt();
+
+            ler.close();
          
             int num2 = (num1+1);
 
