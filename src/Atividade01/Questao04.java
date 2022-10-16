@@ -17,16 +17,13 @@ public class Questao04 {
 
             int HoraTrabalhada = ler.nextInt();
 
+            ler.close();
+
             int salario = ValorHora * HoraTrabalhada;
 
         System.out.print("O funcionário "+nome);
         System.out.println(" deve receber o valor de R$"+salario);
 
-
-         int mes = salario * 22;
-
-         System.out.println(mes);
-        
         
 
 

@@ -1,3 +1,4 @@
+package Atividade01;
     import java.util.Scanner;
 
 public class Questao01 {
@@ -6,11 +7,11 @@ public class Questao01 {
         
         System.out.println("Digite a sua 1° nota");
         
-            float n1 = ler.nextInt();
+            float n1 = ler.nextFloat();
         
         System.out.println("Digite a sua 2° nota");
 
-            float n2 = ler.nextInt();
+            float n2 = ler.nextFloat();
 
             ler.close();
 

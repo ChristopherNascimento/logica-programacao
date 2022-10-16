@@ -10,9 +10,9 @@ public class Questao02 {
 
             ler.close();
          
-            int num2 = (num1+2);
+            int num2 = (num1+1);
 
-            int num3 = (num1-2);
+            int num3 = (num1-1);
 
         System.out.println("Número anterior ao que foi informado "+num3);
 
