@@ -17,7 +17,9 @@ public static void main(String[] args) throws Exception {
         int Pessoas = ler.nextInt();
 
         float ValorPago = ValorTotal / Pessoas;
-        
+    
+        ler.close();
+
     System.out.println("o valor que cada pessoa vai pagar é de R$"+ValorPago);
     
 
