@@ -19,45 +19,68 @@ public class Questao01 {
         
         System.out.println("Sua média foi de "+(media));
 
-    if (media>=5) {
+    // aprovado >=7, recuperação >=4, reprovado < 4, erro digitação > 10 ou < 0
+
+
+    if (media <= 0 || media > 10) {
+        
+        System.out.println("Erro de digitação");
+        
+    } else if (media < 7 ) {
+
+        System.out.println("Recuperação");
+
+    } else if (media < 4) {
+
+        System.out.println("Reprovado");      
+    
+    } else {
+        System.out.println("Aprovado");
+
+    }              
+
+                    
+                
+           
+
+        
+        
+    }
+}
+
+
+     
+    
+
+
+ 
+   /*  if (media >=5 && media <= 10) {
         System.out.println("Aprovado");
 
         
+    } else if (media >= 4 && media < 7) {
+
+        System.out.println("Recuperação");
+
+    } else if (media < 4 && media >= 0) {
+
+        System.out.println("Reprovado");      
+    
     } else {
-        System.out.println("Reprovado");
+        System.out.println("Erro de digitação");
+
+    }              
+        
+                    
+                
+           
+
+        
         
     }
 
      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+    
 }
+
+*/

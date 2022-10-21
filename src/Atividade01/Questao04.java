@@ -21,8 +21,8 @@ public class Questao04 {
 
             int salario = ValorHora * HoraTrabalhada;
 
-        System.out.print("O funcionário "+nome);
-        System.out.println(" deve receber o valor de R$"+salario);
+        System.out.print("O funcionário "+nome+" deve receber o valor de R$"+salario);
+ 
 
         
 

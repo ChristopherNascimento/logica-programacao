@@ -21,11 +21,11 @@ package Atividade01;
 
             float totalconta = comanda + garcon; 
 
-        System.out.println("O total ser pago é de R$ "+totalconta);
+        System.out.println(String.format("%2f. + 10%s = %.2f",comanda,"%",(totalconta)));
 
 
 
-
+    
 
 
 
