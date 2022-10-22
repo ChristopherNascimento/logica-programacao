@@ -10,7 +10,7 @@ public class Questao02 {
     for (int i = 0; i < vezes ; i++) {
         System.out.println(frase);
     }
-
+        ler.close();
 
 
 
