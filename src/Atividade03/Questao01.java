@@ -12,8 +12,8 @@ public class Questao01 {
         System.out.println("Escreva um numero");
             int numero = guardar.nextInt();
         System.out.println("==========");
-        for (int i = 0; i <= 10; i++ ) {
-            System.out.println(numero + " x " + i + " = " + (numero*i));
+        for (int i = 1; i <= 10; i++ ) {
+            System.out.println((String.format("%s x %s = %s ", numero , i, numero * i)));
 
         }
 

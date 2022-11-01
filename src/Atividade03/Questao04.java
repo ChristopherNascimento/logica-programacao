@@ -4,12 +4,28 @@ public class Questao04 {
     public static void main(String[] aargs){
 
         Scanner ler = new Scanner(System.in);
-        System.out.println("Digite a palavra magica: ");
-        int contar = 1;
-        String palavra = ler.next();
-        String palavraMagica = "java2022";
+        String palavra= "";
+        int i = 0;
+        do {
+                i++;
+                System.out.println("Digite a palavra (Tentativa " + i + "/5)");
+                palavra = ler.nextLine();
+                if(palavra.equals("Java-2022")){
+                    System.out.println("Palavra ok ");
+                }else{
+                    System.out.println("Palavra Errada");
+                }
+            } while (!palavra.equals("Java-2022") && i <5 );
+            ler.close();
+
+
+
+
+
+
+
         // while(palavra.equals(anObeject: "palavraMagica")){}, assim nao le o while
-        while (true) {
+       /*/ while (true) {
             if (!palavraMagica.equals(palavra)) {
                 System.out.println("Palavra errada!!");
             }
@@ -26,7 +42,7 @@ public class Questao04 {
                 ler.close();
                 break;
             }
-        }
+        }*/
 
 
 
